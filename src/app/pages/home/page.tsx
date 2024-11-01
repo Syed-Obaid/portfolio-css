@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 import Typewriter from 'typewriter-effect';
@@ -30,7 +29,7 @@ function HomePage() {
 
         </div>
 <div className="home-img">
-    <Image src="/banner.png" alt="" />
+    <img src="/banner.png" alt="" />
 </div>
         </section>
     </>

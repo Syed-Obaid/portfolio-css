@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 function About() {
@@ -6,7 +5,7 @@ function About() {
     <>
       <section className='about' id='about'>
         <div className='about-img'>
-        <Image src="/ban2.png" alt="" />
+        <img src="/ban2.png" alt="" />
         </div>
         <div className="about-content">
             <h2 className='heading'>About <span>Me</span></h2>
